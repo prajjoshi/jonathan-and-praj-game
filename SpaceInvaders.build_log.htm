@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\EE319Kware\Lab10(2)\SpaceInvaders.uvproj
+Project File Date:  05/03/2017
+
+<h2>Output:</h2>
+Rebuild target 'SpaceInvaders'
+assembling startup.s...
+assembling random.s...
+compiling DAC.c...
+compiling ADC.c...
+compiling Timer0.c...
+compiling Timer1.c...
+compiling Sound.c...
+DAC.h(5): warning:  #1-D: last line of file ends without a newline
+  void DAC_Out(uint32_t data);
+Sound.c: 1 warning, 0 errors
+assembling LCD.s...
+assembling Print.s...
+compiling SpaceInvaders.c...
+DAC.h(5): warning:  #1-D: last line of file ends without a newline
+  void DAC_Out(uint32_t data);
+SpaceInvaders.c(521): warning:  #177-D: variable "move" was declared but never referenced
+        uint32_t move = random_number; // 0-59
+SpaceInvaders.c(549): warning:  #177-D: variable "move" was declared but never referenced
+        uint32_t move = random_number; // 0-59
+SpaceInvaders.c: 3 warnings, 0 errors
+compiling ST7735.c...
+linking...
+Program Size: Code=10040 RO-data=22464 RW-data=184 ZI-data=1616  
+".\SpaceInvaders.axf" - 0 Error(s), 4 Warning(s).
+Load "C:\\Keil\\EE319Kware\\Lab10(2)\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+sh Download failed  -  Target DLL has been cancelled
+Load "C:\\Keil\\EE319Kware\\Lab10(2)\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Connection failed!, error code=&d
+Error: Flash Download failed  -  Target DLL has been cancelled
+Load "C:\\Keil\\EE319Kware\\Lab10(2)\\SpaceInvaders.axf" 
+Connecting: Mode=JTAG, Speed=1000000Hz
+Erase Done.
+Programming Done.
+Verify OK.
+
+SpaceInvaders.c(972): error:  #757: variable "Enemy1" is not a type name
+        ST7735_DrawBitmap(Enemy1.x,Enemy1.y, Enemy1.image, 16,16);
+SpaceInvaders.c(972): error:  #18: expected a ")"
+        ST7735_DrawBitmap(Enemy1.x,Enemy1.y, Enemy1.image, 16,16);
+SpaceInvaders.c(972): error:  #260-D: explicit type is missing ("int" assumed)
+        ST7735_DrawBitmap(Enemy1.x,Enemy1.y, Enemy1.image, 16,16);
+SpaceInvaders.c(973): error:  #79: expected a type specifier
+        ST7735_FillRect(0,0,128,33,0xBC8E);
+SpaceInvaders.c(973): error:  #79: expected a type specifier
+        ST7735_FillRect(0,0,128,33,0xBC8E);
+SpaceInvaders.c(973): error:  #79: expected a type specifier
+        ST7735_FillRect(0,0,128,33,0xBC8E);
+SpaceInvaders.c(973): error:  #79: expected a type specifier
+        ST7735_FillRect(0,0,128,33,0xBC8E);
+SpaceInvaders.c(973): error:  #79: expected a type specifier
+        ST7735_FillRect(0,0,128,33,0xBC8E);
+SpaceInvaders.c(973): error:  #260-D: explicit type is missing ("int" assumed)
+        ST7735_FillRect(0,0,128,33,0xBC8E);
+SpaceInvaders.c(973): error:  #147: declaration is incompatible with "void ST7735_FillRect(int16_t, int16_t, int16_t, int16_t, uint16_t)" (declared at line 148 of "ST7735.h")
+        ST7735_FillRect(0,0,128,33,0xBC8E);
+SpaceInvaders.c(976): error:  #79: expected a type specifier
+    ST7735_DrawBitmap(0,52, brick16x16, 16,16);
+SpaceInvaders.c(976): error:  #79: expected a type specifier
+    ST7735_DrawBitmap(0,52, brick16x16, 16,16);
+SpaceInvaders.c(976): error:  #757: variable "brick16x16" is not a type name
+    ST7735_DrawBitmap(0,52, brick16x16, 16,16);
+SpaceInvaders.c(976): error:  #79: expected a type specifier
+    ST7735_DrawBitmap(0,52, brick16x16, 16,16);
+SpaceInvaders.c(976): error:  #79: expected a type specifier
+    ST7735_DrawBitmap(0,52, brick16x16, 16,16);
+SpaceInvaders.c(976): error:  #260-D: explicit type is missing ("int" assumed)
+    ST7735_DrawBitmap(0,52, brick16x16, 16,16);
+SpaceInvaders.c(976): error:  #147-D: declaration is incompatible with "int ST7735_DrawBitmap(<error-type>)" (declared at line 971)
+    ST7735_DrawBitmap(0,52, brick16x16, 16,16);
+SpaceInvaders.c(977): error:  #79: expected a type specifier
+    ST7735_DrawBitmap(0,68, brick16x16, 16,16);
+SpaceInvaders.c(977): error:  #79: expected a type specifier
+    ST7735_DrawBitmap(0,68, brick16x16, 16,16);
+SpaceInvaders.c(977): error:  #757: variable "brick16x16" is not a type name
+    ST7735_DrawBitmap(0,68, brick16x16, 16,16);
+SpaceInvaders.c(977): error:  #79: expected a type specifier
+    ST7735_DrawBitmap(0,68, brick16x16, 16,16);
+SpaceInvaders.c(977): error:  #79: expected a type specifier
+    ST7735_DrawBitmap(0,68, brick16x16, 16,16);
+SpaceInvaders.c(977): error:  #260-D: explicit type is missing ("int" assumed)
+    ST7735_DrawBitmap(0,68, brick16x16, 16,16);
+SpaceInvaders.c(978): error:  #79: expected a type specifier
+        ST7735_DrawBitmap(0,80, brick16x16, 16,16);
+SpaceInvaders.c: 2 warnings, 30 errors
+compiling ST7735.c...
+".\SpaceInvaders.axf" - 30 Error(s), 3 Warning(s).
+Target not created
